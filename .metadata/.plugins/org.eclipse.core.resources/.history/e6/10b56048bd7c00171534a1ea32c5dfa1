@@ -1,0 +1,18 @@
+package main;
+import hash.*; 
+
+public class Url_Shortener {
+
+	public static void main (String[] args) {
+		
+		//will use arguments from the command line to take in a URL for now.
+		if (args.length != 1) {
+			//TODO create a valid URL checker.
+			String input = args.toString();
+			System.out.println("Not valid: "+ input);
+		}
+		
+	}
+	
+	
+}
